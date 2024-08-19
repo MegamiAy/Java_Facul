@@ -1,4 +1,4 @@
-package teste;
+package ex02;
 
 public class Estudante {
 	String nomeEstudante;
