@@ -1,0 +1,12 @@
+package ex07;
+
+import java.time.LocalDate;
+
+public class ClasseExecutora {
+
+	public static void main(String[] args) {
+		Produto prod1 = new Produto("Arroz", "Agulinha", LocalDate.of(2024, 7, 23));
+		System.out.println(prod1);
+	}
+
+}
