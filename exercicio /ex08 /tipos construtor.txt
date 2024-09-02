@@ -1,2 +1,0 @@
-construtor com argumento(param1, param2)
-construtor sem argumento()
