@@ -28,7 +28,8 @@ public class ConectionMySQL {
 		
 		try {
 			connection = DriverManager.getConnection(url, username, serverName);
-			status = "Conectado ao DB";
+			status = "Conectado ao DB: "+mydatabase;
+			Systema.out.println(status);
 		} catch (SQLException e) {
 			System.out.println(status);
 			e.printStackTrace();
